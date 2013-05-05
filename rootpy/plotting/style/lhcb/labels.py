@@ -21,7 +21,7 @@ def lhcb_label(side="L", status="final", text="", pad=None):
         if side == "L":
             l = ROOT.TPaveText(pad.GetLeftMargin() + 0.05,
                                0.87 - pad.GetTopMargin(),
-                               pad.GetLeftMargin() + 0.30,
+                               pad.GetLeftMargin() + 0.20,
                                0.95 - pad.GetTopMargin(),
                                "BRNDC")
         elif side == "R":
